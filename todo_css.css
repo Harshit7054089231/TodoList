@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+
+body {
+  background: #16A085;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F4D03F, #16A085);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F4D03F, #16A085); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.wrapper {
+ margin: 0 auto;
+ text-align: center;
+ margin: 20px;
+}
+
+.heading {
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+
+.todo_start {
+  margin-top: 40px;
+}
+
+.input_field {
+  width: 280px;
+  height: 30px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.btnz {
+  margin: 20px;
+}
+
+.mybtn {
+    width: 50px;
+    height: 30px;
+    background-color: yellow;
+}
+
+.mybtn:hover {
+
+    background-color: greenyellow;
+    transition: 0.5s ease;
+
+}
+
+
+
+.icon_btn {
+  width: 50px;
+    height: 30px;
+  cursor: pointer;
+  background-color: red;
+  color: whitesmoke;
+  outline: none;
+}
+
+.main_item {
+  border : 1px solid yellowgreen;  
+  width: 400px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: azure;
+
+}
+
+.para {
+  padding-left: 20px;
+}
+
+.pad1 {
+  margin-top: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+.todo_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: rgb(24, 85, 24);
+  padding: 5px;
+  width: 280px;
+  font-size: 1.5rem;
+  color: whitesmoke;
+  margin-top: 10px;
+  transition: 0.5s ease;
+}
+
+.todo_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+
+.items {
+  width: 90%;
+  padding-left: 10px;
+}
+
+.btn1 {
+  cursor: pointer;
+  color: red;
+  width: 10%;
+  padding-left: 30px;
+}
+
+
+.btn1:hover {
+  color: rgb(13, 218, 236);
+  transition: 0.3s ease;
+}
+
+.btn2 {
+  cursor: pointer;
+  color: aqua;
+  width: 10%;
+  padding-left: 30px;
+}
+
+.btn2:hover {
+  color:red;
+  transition: 0.3s ease;
+}
+
+
+.completed {
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+
+.fall {
+  transform: translateY(8rem) rotateZ(20deg);
+  opacity: 0;
+}
